@@ -1,0 +1,71 @@
+.accounts .item input {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+    cursor: pointer;
+}
+
+.accounts .item {
+    width: 100%;
+    height: 30px;
+    display: block;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.accounts .item:hover input ~ .selected {
+    background-color: #eee;
+    border-radius: 3px;
+    border: 0;
+    width: 100%;
+}
+
+.accounts .item input:checked ~ .selected {
+    background-color: rgba(33, 150, 243, 0.56);
+    border-radius: 3px;
+    border: 0;
+    width: 100%;
+}
+
+.accounts .item input:checked .selected .button {
+    display: none;
+}
+
+.accounts .item:hover .selected .button {
+    display: inline-block;
+}
+
+.selected {
+    position: absolute;
+    padding: 5px;
+    line-height: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+}
+
+.selected .a {
+    display: inline-block;
+    width: 30%;
+}
+
+.selected .b {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+}
+
+.button {
+    display: none;
+    width: 100px;
+    height: 20px;
+    border-radius: 3px;
+    font-size: 12px;
+    text-align: center;
+    background-color: aliceblue;
+}

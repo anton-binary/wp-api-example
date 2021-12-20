@@ -1,0 +1,6 @@
+.largefont, .largefont p{font-size:16px;}
+.skt-minimal-notice-container{width:100%; padding:15px 0 15px 0;}
+.skt-minimal-notice-img{float:left; text-align:left; width:13%;}
+.skt-minimal-notice-content{float:left; text-align:left; width:85%; padding-top:33px;}
+.skt-minimal-notice-heading{font-size:20px; font-weight:600;}
+.skt-minimal-clear{clear:both;}

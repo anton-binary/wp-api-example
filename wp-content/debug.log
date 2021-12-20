@@ -1,0 +1,133 @@
+[17-Dec-2021 19:52:45 UTC] 
+<h2>TradingView chart</h2>
+
+
+
+<p>Chart is an essential part of any trading website or application. Developing a chart widget from scratch could be rather difficult, so you might want to use one of the charting solutions available on the market. The good news is that there&#8217;s plenty of options to choose from and some of them are free.</p>
+
+
+
+<p>The below example uses TradingView Lightweight Charts library.</p>
+
+
+
+<!-- wp-api-example:tradingview-chart -->
+
+
+
+<script async="" src="//jsfiddle.net/antonderiv/n64ja03t/30/embed/js,html,css/"></script>
+
+
+
+<p></p>
+
+[17-Dec-2021 19:54:20 UTC] 
+[17-Dec-2021 19:57:39 UTC] 5
+[17-Dec-2021 19:58:41 UTC] 34
+[17-Dec-2021 19:59:09 UTC] 422
+[17-Dec-2021 19:59:36 UTC] 422
+[17-Dec-2021 20:03:38 UTC] 
+[17-Dec-2021 20:04:35 UTC] 
+[17-Dec-2021 20:04:35 UTC] 
+[17-Dec-2021 20:05:16 UTC] 
+[17-Dec-2021 20:05:16 UTC] PHP Notice:  Undefined variable: pos in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php on line 32
+[17-Dec-2021 20:05:52 UTC] 
+[17-Dec-2021 20:06:36 UTC] 422
+[17-Dec-2021 20:06:53 UTC] 422
+[18-Dec-2021 05:57:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php:21
+Stack trace:
+#0 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/class-wp-hook.php(303): add_code_after_content('\n<h2>Tick strea...')
+#1 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/plugin.php(189): WP_Hook->apply_filters('\n<h2>Tick strea...', Array)
+#2 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:heading...')
+#3 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/themes/skt-minimal/page.php(21): the_content()
+#4 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/template-loader.php(106): include('/Users/antonand...')
+#5 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-blog-header.php(19): require_once('/Users/antonand...')
+#6 /Users/antonandreyev/Development/htdocs/wp-api-example/index.php(17): in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php on line 21
+[18-Dec-2021 05:58:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php:21
+Stack trace:
+#0 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/class-wp-hook.php(303): add_code_after_content('\n<h2>Tick strea...')
+#1 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/plugin.php(189): WP_Hook->apply_filters('\n<h2>Tick strea...', Array)
+#2 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:heading...')
+#3 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/themes/skt-minimal/page.php(21): the_content()
+#4 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/template-loader.php(106): include('/Users/antonand...')
+#5 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-blog-header.php(19): require_once('/Users/antonand...')
+#6 /Users/antonandreyev/Development/htdocs/wp-api-example/index.php(17): in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php on line 21
+[18-Dec-2021 05:58:37 UTC] PHP Notice:  Undefined variable: wp in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php on line 23
+[18-Dec-2021 05:58:37 UTC] PHP Notice:  Trying to get property 'request' of non-object in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php on line 23
+[18-Dec-2021 05:58:37 UTC] http://localhost/wp-api-example
+[18-Dec-2021 05:58:53 UTC] http://localhost/wp-api-example/tick-stream
+[18-Dec-2021 05:59:54 UTC] http://localhost/wp-api-example/tick-stream
+[18-Dec-2021 06:00:10 UTC] http://localhost/wp-api-example/tick-stream
+[18-Dec-2021 06:00:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php:20
+Stack trace:
+#0 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/class-wp-hook.php(303): add_code_after_content('\n<h2>Tick strea...')
+#1 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/plugin.php(189): WP_Hook->apply_filters('\n<h2>Tick strea...', Array)
+#2 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:heading...')
+#3 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/themes/skt-minimal/page.php(21): the_content()
+#4 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/template-loader.php(106): include('/Users/antonand...')
+#5 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-blog-header.php(19): require_once('/Users/antonand...')
+#6 /Users/antonandreyev/Development/htdocs/wp-api-example/index.php(17): in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php on line 20
+[18-Dec-2021 06:01:39 UTC] http:
+[18-Dec-2021 06:02:01 UTC] PHP Notice:  Only variables should be passed by reference in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php on line 20
+[18-Dec-2021 06:02:01 UTC] tick-stream
+[18-Dec-2021 06:02:45 UTC] tick-stream
+[18-Dec-2021 06:03:26 UTC] PHP Warning:  end() expects parameter 1 to be array, null given in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php on line 21
+[18-Dec-2021 06:03:26 UTC] 
+[18-Dec-2021 06:03:39 UTC] tick-stream
+[18-Dec-2021 06:13:54 UTC] PHP Notice:  Undefined variable: content in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php on line 58
+[18-Dec-2021 06:13:54 UTC] PHP Notice:  Undefined variable: content in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php on line 73
+[18-Dec-2021 06:13:57 UTC] PHP Notice:  Undefined variable: js_footer in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php on line 75
+[18-Dec-2021 06:14:01 UTC] PHP Notice:  Undefined variable: js_footer in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php on line 75
+[18-Dec-2021 06:14:02 UTC] PHP Notice:  Undefined variable: content in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php on line 58
+[18-Dec-2021 06:14:02 UTC] PHP Notice:  Undefined variable: content in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php on line 73
+[18-Dec-2021 06:14:39 UTC] PHP Notice:  Undefined variable: content in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php on line 73
+[18-Dec-2021 06:15:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function et_current_page_slug() in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php:26
+Stack trace:
+#0 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/class-wp-hook.php(303): add_code_after_content('\n<h2>TradingVie...')
+#1 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/plugin.php(189): WP_Hook->apply_filters('\n<h2>TradingVie...', Array)
+#2 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:heading...')
+#3 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/themes/skt-minimal/page.php(21): the_content()
+#4 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/template-loader.php(106): include('/Users/antonand...')
+#5 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-blog-header.php(19): require_once('/Users/antonand...')
+#6 /Users/antonandreyev/Development/htdocs/wp-api-example in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php on line 26
+[18-Dec-2021 06:15:44 UTC] tradingview-chart
+[18-Dec-2021 06:15:44 UTC] PHP Notice:  Undefined variable: content in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php on line 74
+[18-Dec-2021 06:16:03 UTC] tradingview-chart
+[18-Dec-2021 06:16:03 UTC] PHP Notice:  Undefined variable: content in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php on line 74
+[18-Dec-2021 06:17:19 UTC] tradingview-chart
+[18-Dec-2021 06:17:46 UTC] wp-api-example
+[18-Dec-2021 06:17:46 UTC] wp-api-example
+[18-Dec-2021 06:17:47 UTC] 65
+[18-Dec-2021 06:17:47 UTC] 65
+[18-Dec-2021 06:18:15 UTC] tradingview-chart
+[18-Dec-2021 06:18:40 UTC] tradingview-chart
+[18-Dec-2021 06:18:45 UTC] tick-stream
+[18-Dec-2021 08:07:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function loggingIn_js_footer() in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php:82
+Stack trace:
+#0 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/class-wp-hook.php(303): wpb_hook_footer('')
+#1 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/general-template.php(3031): do_action('wp_footer')
+#4 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/themes/skt-minimal/footer.php(54): wp_footer()
+#5 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/template.php(770): require_once('/Users/antonand...')
+#6 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/template.php(716): load_template('/Users/antonand...', in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php on line 82
+[18-Dec-2021 08:08:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function loggingIn_js_footer() in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php:82
+Stack trace:
+#0 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/class-wp-hook.php(303): wpb_hook_footer('')
+#1 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/general-template.php(3031): do_action('wp_footer')
+#4 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/themes/skt-minimal/footer.php(54): wp_footer()
+#5 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/template.php(770): require_once('/Users/antonand...')
+#6 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/template.php(716): load_template('/Users/antonand...', in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php on line 82
+[19-Dec-2021 11:48:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-super-cache/wp-cache.php on line 2050
+[20-Dec-2021 09:00:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_url() in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/tradingview.php:45
+Stack trace:
+#0 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/main.php(60): TradingView_js_head()
+#1 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/class-wp-hook.php(303): wpb_hook_head('')
+#2 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/general-template.php(3015): do_action('wp_head')
+#5 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/themes/skt-minimal/header.php(19): wp_head()
+#6 /Users/antonandreyev/Development/htdocs/wp-api-example/wp-includes/template.php(770): require_once('/Users/antonand...')
+#7 / in /Users/antonandreyev/Development/htdocs/wp-api-example/wp-content/plugins/wp-api-example/tradingview.php on line 45

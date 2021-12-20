@@ -1,0 +1,61 @@
+.tv-lightweight-charts table, td, th {
+    table-layout: auto !important;
+    margin: 0 !important;
+    border: 0 !important; 
+}
+
+.controls #active_symbols {
+    border: 1px solid #d6dcde;
+    border-radius: 4px;
+    height: 26px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.controls {
+    padding: 10px 0 10px 0 !important;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.controls .button {
+    border: 1px solid #d6dcde;
+    width: 80px;
+    text-align: center;
+    margin: 0 2px 0 2px;
+    border-radius: 4px;
+    font-size: 14px;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.controls .button input {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 78px;
+}
+
+.controls .button:hover input ~ .checkmark {
+    background-color: #eee;
+    border-radius: 3px;
+    border: 0;
+}
+
+.controls .button input:checked ~ .checkmark {
+    background-color: rgba(33, 150, 243, 0.56);
+    border-radius: 3px;
+    border: 0;
+}
